@@ -1353,9 +1353,11 @@
   
   .about-banner {
     background-color: #1f023f;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMUtCY1q6BkfxKf3zpg1lWsKuW1ghxAkvI6A&s'); 
+
     color: white;
-    padding: 50px;
-    border-radius: 10px;
+    padding: 40px;
+    
   }
   
   .about-banner h1 {
@@ -1434,9 +1436,9 @@
   }
   
   .about-footer {
-    margin-top: 50px;
-    padding: 30px;
-    background-color:#17023e;
+    margin-top: 10px;
+    padding: 5px;
+    background-color:#333;;
     color: white;
     border-radius: 10px;
   }
@@ -1460,9 +1462,9 @@
   .footer {
     background-color: #1a202c;
     color: white;
-    padding: 20px 0;
+  
     text-align: center;
-    margin-top: 40px;
+   
   }
   
   .footer-container {
