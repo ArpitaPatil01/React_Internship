@@ -13,9 +13,10 @@ const MainNavbar = () => {
             </div>
             <ul class="menu-items">
                 <li><a href="#">Home</a></li>
-                <li><a href="AboutPage">About</a></li>
+              
                 <li><a href="CartPage">Cart</a></li>
                 <li><a href="FeedbackPage">Feedback</a></li>
+                <li><a href="AboutUsPage">About</a></li>
               
                 <li><a href="#">Contact</a></li>
             </ul>
