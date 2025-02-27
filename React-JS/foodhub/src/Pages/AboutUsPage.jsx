@@ -2,6 +2,9 @@ import React from "react";
 import MainNavbar from "../Components/MainNavbar";
 const AboutUsPage = () => {
   return (
+    <div>
+    <MainNavbar></MainNavbar>
+    
     <div className="about-us">
       <div className="about-banner">
         <h1>About FoodHub</h1>
@@ -59,6 +62,7 @@ const AboutUsPage = () => {
         <p>Become a part of the FoodHub family and enjoy the best food delivery experience.</p>
         <button className="join-btn">Get Started</button>
       </div>
+    </div>
     </div>
   );
 };
