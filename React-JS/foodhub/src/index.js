@@ -19,9 +19,10 @@ root.render(
     <BrowserRouter>
     <Routes>
     <Route path="/" element={< CartPage/>}/>
+
+    <Route path="CartPage" element={<CartPage/>}/>
     <Route path="AboutUsPage" element={<AboutUsPage/>}/>
     <Route path="FeedbackPage" element={<FeedbackPage/>}/>
-    <Route path="CartPage" element={<CartPage/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
