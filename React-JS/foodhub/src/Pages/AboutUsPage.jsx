@@ -51,6 +51,9 @@ const AboutUsPage = () => {
         </div>
       </div>
 
+
+
+
       <div className="about-footer">
         <h2>Join Us Today!</h2>
         <p>Become a part of the FoodHub family and enjoy the best food delivery experience.</p>
