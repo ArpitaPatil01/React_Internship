@@ -1,5 +1,6 @@
 import React from "react";
 import MainNavbar from "../Components/MainNavbar";
+import Footer from "../Components/Footer";
 const AboutUsPage = () => {
   return (
     <div>
@@ -55,13 +56,10 @@ const AboutUsPage = () => {
       </div>
 
 
+<br></br>
 
+      <Footer></Footer>
 
-      <div className="about-footer">
-        <h2>Join Us Today!</h2>
-        <p>Become a part of the FoodHub family and enjoy the best food delivery experience.</p>
-        <button className="join-btn">Get Started</button>
-      </div>
     </div>
     </div>
   );

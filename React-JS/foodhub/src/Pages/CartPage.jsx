@@ -75,7 +75,7 @@ const CartPage = () => {
    <div>
      <MainNavbar></MainNavbar>
     <div className="menu-container">
-    <h1>Menu</h1>
+    <h1 className="tt">Menu</h1>
     <div className="menu-list" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
       {menuItems.map((item) => (
         <div key={item.id} className="menu-item" style={{ flex: '1 1 calc(33.333% - 20px)', maxWidth: '300px', border: '1px solid #ddd', padding: '10px', textAlign: 'center' }}>

@@ -25,8 +25,8 @@
     box-shadow: 0px 5px 10px 0px #aaa;
     position: fixed;
     width: 100%;
-    background: #fff;
-    color: #000;
+    background: #272d5c;
+    color: #f9f5f5;
     opacity: 0.85;
     z-index: 100;
 }
@@ -42,6 +42,9 @@
     order: 2;
     display: flex;
 }
+.menu-items:hover{
+  transition: 0.3s;
+}
 .logo{
     order: 1;
     font-size: 2.3rem;
@@ -54,14 +57,15 @@
 }
 
 .navbar a{
-    color: #444;
+    color: #faf5f5;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
-    color: #117964;
+    color: #ef5c07;
+    
 }
 
 @media (max-width: 768px){
@@ -1196,13 +1200,21 @@
   .menu-container {
     font-family: Arial, sans-serif;
     padding: 20px;
+
+background-size: contain;
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKjZ79yvPfFLHGdEEy_pkja7CSkOIKeI0ppw&s");
   }
+
   
   h1 {
     text-align: center;
-    color: #333;
+    color: #fefdfd;
+    
   }
-  
+  .tt {
+color: #f5f5f6;
+  }
   .menu-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1219,6 +1231,17 @@
     flex-direction: column;
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+  .menu-item-image:hover {
+    transform: scale(1.07);
+    transition: 0.3s;
+    background-color: #fbed52;
+  }
+  .menu-item:hover {
+   
+    background-color: #fbed52;
   }
   
   .menu-item-image {
